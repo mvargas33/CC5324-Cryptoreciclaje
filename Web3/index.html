@@ -1,0 +1,35 @@
+<head>
+    <title>Criptoreciclaje</title>
+</head>
+  
+<body>
+    <h1>Checkeador de Balances!</h1>
+
+    <form method="post" action="/">
+        Dirección del cliente:<br>
+        <input type="text" name="direccion"><br>
+        <input type="submit" value="Enviar">
+    </form><br>
+
+    <script type="text/javascript" id="holsa">
+        var balance = 0;
+    /*
+        var user_address = req.body.direccion;
+        console.log(user_address);
+        var Web3 = require('web3');
+        var web3 = new Web3(new Web3.providers.HttpProvider(`http://127.0.0.0:${port}/`));
+        
+        balance = web3.eth.getBalance(user_address);
+        console.log(balance);
+    */
+    </script>
+
+    <h1>
+        El usuario tiene:
+        <script type="text/javascript">
+          document.write(balance)
+        </script>
+         puntos
+      </h1>
+
+</body>
